@@ -1,0 +1,8 @@
+.mediaModule {
+	margin: 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	overflow-y: scroll;
+	height: 90vh;
+}

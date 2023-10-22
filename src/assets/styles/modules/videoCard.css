@@ -1,0 +1,25 @@
+.videoCard__container {
+	width: 240px;
+	background-color: #9c9c9c;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+
+.videoCard__thumbnailContainer {
+	height: 240px;
+	width: 240px;
+}
+
+.videoCard__thumbnail {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.videoCard__title {
+	width: 240px;
+	height: 60px;
+	background-color: black;
+	color: white;
+}
