@@ -9,7 +9,7 @@ function Login() {
 	const navigate = useNavigate();
 
 	const handleLoginWithGoogle = () => {
-		window.open("http://localhost:8000/api/v1/auth/google", "_self");
+		window.open("https://fbs-lms-api.onrender.com/api/v1/auth/google", "_self");
 	};
 
 	const u = useSelector((state) => state.userState.user);
